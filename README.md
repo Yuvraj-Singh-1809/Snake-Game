@@ -1,8 +1,8 @@
-# Snake Game
+﻿# Snake Game
 
 A classic Snake game implementation built with **C++** and **SFML** (Simple and Fast Multimedia Library), featuring smooth gameplay, collision detection, and a complete game state management system.
 
-## ?? Features
+## 🎮 Features
 
 - **Classic Gameplay**: Navigate the snake to eat food and grow longer
 - **Multiple Control Schemes**: Use arrow keys or WASD for movement
@@ -12,37 +12,37 @@ A classic Snake game implementation built with **C++** and **SFML** (Simple and 
 - **Smooth Graphics**: Custom sprites for snake, food, walls, and background
 - **State Management**: Professional game state architecture for seamless transitions
 
-## ??? Technologies Used
+## 🛠️ Technologies Used
 
 - **C++17**: Modern C++ features and standard library
 - **SFML**: Cross-platform multimedia library for graphics, audio, and window management
 - **Visual Studio**: Windows development environment
 - **Object-Oriented Design**: Clean architecture with proper encapsulation
 
-## ?? Project Structure
+## 📁 Project Structure
 
 ```
 Snake Game/
-??? Main.cpp              # Entry point
-??? Game.hpp/cpp          # Core game engine and main loop
-??? State.hpp             # Abstract base class for game states
-??? StateManager.hpp/cpp  # Manages game state transitions
-??? Snake.hpp/cpp         # Snake entity with movement and collision logic
-??? GamePlay.hpp/cpp      # Main gameplay state implementation
-??? MainMenu.hpp/cpp      # Main menu state
-??? GameOver.hpp/cpp      # Game over state
-??? PauseGame.hpp/cpp     # Pause menu state
-??? AssetManager.hpp/cpp  # Resource management for textures and fonts
-??? Assets/
-?   ??? snake.png         # Snake sprite
-?   ??? food.png          # Food sprite
-?   ??? wall.png          # Wall boundary sprite
-?   ??? grass.png         # Background texture
-?   ??? DynaPuff-Regular.ttf # Game font
-??? Snake Game.vcxproj    # Visual Studio project file
+├── Main.cpp              # Entry point
+├── Game.hpp/cpp          # Core game engine and main loop
+├── State.hpp             # Abstract base class for game states
+├── StateManager.hpp/cpp  # Manages game state transitions
+├── Snake.hpp/cpp         # Snake entity with movement and collision logic
+├── GamePlay.hpp/cpp      # Main gameplay state implementation
+├── MainMenu.hpp/cpp      # Main menu state
+├── GameOver.hpp/cpp      # Game over state
+├── PauseGame.hpp/cpp     # Pause menu state
+├── AssetManager.hpp/cpp  # Resource management for textures and fonts
+├── Assets/
+│   ├── snake.png         # Snake sprite
+│   ├── food.png          # Food sprite
+│   ├── wall.png          # Wall boundary sprite
+│   ├── grass.png         # Background texture
+│   └── DynaPuff-Regular.ttf # Game font
+└── Snake Game.vcxproj    # Visual Studio project file
 ```
 
-## ?? Core Components
+## 🎯 Core Components
 
 ### Snake Class
 - **Dynamic Growth**: Linked list-based body management for efficient growth
@@ -61,7 +61,7 @@ Snake Game/
 - **Font Management**: Typography system for UI elements
 - **Resource Optimization**: Efficient memory management for game assets
 
-## ?? Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 - **Visual Studio 2019/2022** with C++ development tools
@@ -86,18 +86,18 @@ Snake Game/
    - Select your preferred configuration (Debug/Release, x64/x86)
    - Build and run the project (F5)
 
-## ?? How to Play
+## 🎮 How to Play
 
 - **Movement**: Use arrow keys or WASD to control the snake
-  - `?/W`: Move up
-  - `?/S`: Move down
-  - `?/A`: Move left
-  - `?/D`: Move right
+  - `↑/W`: Move up
+  - `↓/S`: Move down
+  - `←/A`: Move left
+  - `→/D`: Move right
 - **Pause**: Press `Escape` to pause the game
 - **Objective**: Eat food to grow longer and increase your score
 - **Game Over**: Avoid hitting walls or the snake's own body
 
-## ??? Architecture Highlights
+## 🏗️ Architecture Highlights
 
 ### State Management Pattern
 The game implements a robust state management system allowing smooth transitions between different game screens and maintaining clean separation of concerns.
@@ -108,7 +108,7 @@ The Snake class follows modern C++ practices with RAII, smart pointers, and effi
 ### Resource Management
 Centralized asset management ensures efficient loading and lifetime management of game resources.
 
-## ?? Technical Implementation
+## 🔧 Technical Implementation
 
 - **Frame Rate**: 60 FPS with delta-time based updates
 - **Grid System**: 16x16 pixel grid for consistent movement and collision
@@ -116,20 +116,25 @@ Centralized asset management ensures efficient loading and lifetime management o
 - **Collision System**: AABB (Axis-Aligned Bounding Box) collision detection
 - **Rendering Pipeline**: Efficient sprite batching and state management
 
-## ?? Future Enhancements
+## 🚀 Future Enhancements
 
 - [ ] High score persistence
 - [ ] Multiple difficulty levels
 - [ ] Sound effects and background music
 - [ ] Power-ups and special food items
+- [ ] Multiplayer support
 - [ ] Cross-platform compatibility (Linux/macOS)
 - [ ] Mobile port potential
 
-## ?? License
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit pull requests or open issues for bugs and feature requests.
+
+## 📄 License
 
 This project is open source. Feel free to use, modify, and distribute as needed.
 
-## ????? Author
+## 👨‍💻 Author
 
 **Yuvraj Singh** - [GitHub Profile](https://github.com/Yuvraj-Singh-1809)
 
